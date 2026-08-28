@@ -1,5 +1,15 @@
+:root {
+    --color-primary: #390099;
+    --color-secondary: #9e0059;
+    --color-success: #ff0054;
+    --color-danger: #ff5400;
+    --color-background: #ffbd00;
+    --color-text: #000000;
+}
+
 h1,
 h2 {
+    color: Var(--color-primary);
     font-family: Arial, sans-serif;
     font-weight: body;
 }
@@ -13,5 +23,6 @@ h2 {
 }
 
 p {
+    color: Var(--color-danger);
     font-size: 12px;
 }
