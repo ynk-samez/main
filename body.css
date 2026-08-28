@@ -3,8 +3,12 @@
     --color-secondary: #9e0059;
     --color-success: #ff0054;
     --color-danger: #ff5400;
-    --color-background: #ffbd00;
-    --color-text: #000000;
+    --color-warn: #ffbd00;
+    --color-background: #f5ebe0;
+}
+
+body {
+    color: Var(--color-background);
 }
 
 h1,
